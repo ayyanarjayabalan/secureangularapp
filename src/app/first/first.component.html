@@ -1,0 +1,11 @@
+<p>first works!</p>
+
+<input type="text" name="firstName" id="firstName" (change)="isDirty = true">
+
+<br><br>
+<button (click)="isDirty = false">Save</button>
+
+
+<br><br>
+
+<a [routerLink]="['/second']" routerLinkActive="router-link-active">Second Page</a>
